@@ -3,21 +3,21 @@ import { useEffect, useState } from "react";
 const slides = [
   {
     title: "About AKIASSC",
-    img: "/akiassc'26-logo.png",
+    img: `${import.meta.env.BASE_URL}akiassc'26-logo.png`,
     text:
       "The All Kerala Industry Applications Society Student Conclave (AKIASSC'26) is a premier gathering of students, industry professionals, and academic leaders. This conclave serves as a platform to bridge the gap between academia and industry, fostering innovation, collaboration, and knowledge exchange. Join us for an extraordinary experience of learning, networking, and exploring cutting-edge technologies that shape the future of industrial applications."
   },
   {
     title: "About IEEE IA/IE/PELS Jt. Chapter",
-    img: "/jt-chapterlogo.png",
+    img: `${import.meta.env.BASE_URL}jt-chapterlogo.png`,
     text:
       "The IEEE Industry Applications, Industrial Electronics, and Power Electronics Joint Chapter brings together professionals and students passionate about advancing technology in industrial sectors. Our chapter focuses on promoting research, development, and application of electrical and electronic technologies in industrial environments. Through technical meetings, workshops, and conferences, we strive to enhance professional development and foster collaboration among members across Kerala."
-    },
+  },
   {
     title: "About MACE Kothamangalam",
-    img: "/MACE.jpg",
+    img: `${import.meta.env.BASE_URL}MACE.jpg`,
     text:
-      "Established in 1989, the IEEE MACE Student Branch is one of Kerala’s oldest and most distinguished student branches. With one of the highest global memberships, it continues to uphold a legacy of excellence, innovation, and leadership.The branch is renowned for organizing impactful initiatives such as .hack();, CYBOSIUM, SPARC, and FUSION, providing students with opportunities to grow technically and professionally. Its consistent achievements, including multiple IEEE Regional Exemplary Student Branch Awards and the IEEE India Council Best Student Branch Award, stand as a testament to its commitment to fostering innovation and empowering future engineers."
+      "Established in 1989, the IEEE MACE Student Branch is one of Kerala's oldest and most distinguished student branches. With one of the highest global memberships, it continues to uphold a legacy of excellence, innovation, and leadership.The branch is renowned for organizing impactful initiatives such as .hack();, CYBOSIUM, SPARC, and FUSION, providing students with opportunities to grow technically and professionally. Its consistent achievements, including multiple IEEE Regional Exemplary Student Branch Awards and the IEEE India Council Best Student Branch Award, stand as a testament to its commitment to fostering innovation and empowering future engineers."
   }
 ];
 
@@ -35,7 +35,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="min-h-screen px-6 pt-32 pb-24 flex flex-col items-center"
+      className="min-h-screen px-6 pt-16 pb-24 flex flex-col items-center"
     >
       {/* Section title */}
       <h2

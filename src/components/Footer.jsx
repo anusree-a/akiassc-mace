@@ -9,13 +9,12 @@ export default function Footer() {
       "
     >
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
-
-        {/* Logo */}
-        <img
-          src="/akiassc'26-logo.png"
-          alt="AKIASSC Logo"
-          className="h-20"
-        />
+{/* Logo */}
+<img
+  src={`${import.meta.env.BASE_URL}akiassc'26-logo.png`}
+  alt="AKIASSC Logo"
+  className="h-20"
+/>
 
         {/* Links */}
         <div className="text-center md:text-right">

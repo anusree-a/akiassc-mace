@@ -24,7 +24,7 @@ export default function LogoHero() {
   return (
     <section className="min-h-screen flex items-center justify-center overflow-hidden">
       <img
-        src="/akiassc'26-logo.png"
+        src={`${import.meta.env.BASE_URL}akiassc'26-logo.png`}
         alt="AKIASSC"
         style={{
           transform: `scale(${scale})`,

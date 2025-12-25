@@ -37,7 +37,7 @@ export default function Navbar() {
         {/* Logo */}
         <div className="flex items-center gap-3">
           <img
-            src="/akiassc'26-logo.png"
+            src={`${import.meta.env.BASE_URL}akiassc'26-logo.png`}
             alt="AKIASSC Logo"
             className="
               h-14 md:h-16

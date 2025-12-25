@@ -57,4 +57,48 @@ html {
   .delay-700 {
     animation-delay:  700ms;
   }
+
+  .animate-zoom-in {
+    animation: zoomIn 1s ease-out;
+  }
+
+  @keyframes zoomIn {
+    from {
+      transform: scale(0);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  .animate-typewriter {
+    animation: typewriter 2s steps(100, end) forwards;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+  }
+
+  @keyframes typewriter {
+    to {
+      width: 100%;
+    }
+  }
+
+  .delay-1s {
+    animation-delay: 1s;
+  }
+
+  .delay-3s {
+    animation-delay: 3s;
+  }
+
+  .delay-5s {
+    animation-delay: 5s;
+  }
+
+  .delay-7s {
+    animation-delay: 7s;
+  }
 }
