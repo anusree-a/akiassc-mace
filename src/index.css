@@ -38,6 +38,22 @@ html {
     }
   }
 
+  /* Slide down animation for the tagline */
+  .animate-slide-down {
+    animation: slideDown 0.8s ease-out;
+  }
+
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
   @keyframes shimmer {
     0% {
       transform: translateX(-100%);
@@ -82,6 +98,22 @@ html {
     animation-delay: 1s;
   }
 
+  .delay-1-2s {
+    animation-delay: 1.2s;
+  }
+
+  .delay-1-4s {
+    animation-delay: 1.4s;
+  }
+
+  .delay-1-6s {
+    animation-delay: 1.6s;
+  }
+
+  .delay-1-8s {
+    animation-delay: 1.8s;
+  }
+
   .delay-3s {
     animation-delay: 3s;
   }
@@ -92,5 +124,13 @@ html {
 
   .delay-7s {
     animation-delay: 7s;
+  }
+
+  /* Initial state for delayed animations */
+  .animate-slide-down,
+  .animate-fade-in,
+  .animate-zoom-in {
+    opacity: 0;
+    animation-fill-mode: forwards;
   }
 }

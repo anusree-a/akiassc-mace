@@ -30,13 +30,13 @@ export default function Hero() {
         {/* Tagline */}
         <p
           className="
-            text-[rgb(212,175,55)]
-            text-base sm:text-lg md:text-2xl
-            font-bold
-            tracking-wide
-            animate-fade-in delay-1s
-            px-2
-          "
+          text-[rgb(212,175,55)]
+         text-base sm:text-lg md:text-2xl
+         font-bold
+         tracking-wide
+         animate-slide-down delay-1-2s  // ← CHANGED from: animate-fade-in delay-1s
+         px-2
+"
           style={{ textShadow: "0 0 18px rgba(212,175,55,0.45)" }}
         >
           All Kerala Industry Applications Society Student Conclave
@@ -45,10 +45,11 @@ export default function Hero() {
         {/* Heading */}
         <h2
           className="
-            text-3xl sm:text-4xl md:text-6xl
-            font-extrabold
-            text-[rgb(212,175,55)]
-            tracking-tight
+             text-3xl sm:text-4xl md:text-6xl
+    font-extrabold
+    text-[rgb(212,175,55)]
+    tracking-tight
+    animate-fade-in delay-1-4s 
           "
           style={{
             textShadow:
@@ -61,11 +62,11 @@ export default function Hero() {
         {/* Event Details */}
         <p
           className="
-            text-[rgb(212,175,55)]
-            text-base sm:text-lg md:text-2xl
-            tracking-wide
-            animate-fade-in delay-5s
-            px-2
+              text-[rgb(212,175,55)]
+              text-base sm:text-lg md:text-2xl
+              tracking-wide
+              animate-fade-in   
+              px-2 delay-3s
           "
           style={{ textShadow: "0 0 18px rgba(212,175,55,0.45)" }}
         >
@@ -74,7 +75,9 @@ export default function Hero() {
         </p>
 
         {/* CTA */}
-        <div className="mt-10 sm:mt-14 md:mt-16 flex justify-center animate-zoom-in delay-7s">
+        
+<div className="mt-10 sm:mt-14 md:mt-16 flex justify-center animate-zoom-in delay-1-8s">
+
           <a
             href="#register"
             className="

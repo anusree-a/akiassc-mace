@@ -55,11 +55,13 @@ export default function Footer() {
             </a>
           </p>
 
-          <p className="text-sm text-gray-400 mt-12">
-            © 2026 AKIASSC | Powered by IEEE IA/IE/PELS Jt. Chapter Kerala
-          </p>
+          
         </div>
+       
       </div>
+       <p className="text-sm text-gray-400 text-center mt-12">
+  © 2026 AKIASSC | Powered by IEEE IA/IE/PELS Jt. Chapter Kerala
+</p>
     </footer>
   );
 }
