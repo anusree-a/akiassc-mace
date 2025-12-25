@@ -26,7 +26,7 @@ export default function Hero() {
       />
 
       {/* Content */}
-      <div className="flex flex-col items-center gap-6 sm:gap-8 max-w-3xl md:max-w-4xl">
+       <div className="flex flex-col items-center gap-6 sm:gap-8 max-w-3xl md:max-w-4xl w-full">
         {/* Tagline */}
         <p
           className="
@@ -34,7 +34,8 @@ export default function Hero() {
             text-base sm:text-lg md:text-2xl
             font-bold
             tracking-wide
-            animate-typewriter delay-1s
+            animate-fade-in delay-1s
+            px-2
           "
           style={{ textShadow: "0 0 18px rgba(212,175,55,0.45)" }}
         >
@@ -63,7 +64,8 @@ export default function Hero() {
             text-[rgb(212,175,55)]
             text-base sm:text-lg md:text-2xl
             tracking-wide
-            animate-typewriter delay-5s
+            animate-fade-in delay-5s
+            px-2
           "
           style={{ textShadow: "0 0 18px rgba(212,175,55,0.45)" }}
         >

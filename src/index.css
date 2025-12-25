@@ -5,12 +5,17 @@
 }
 
 body {
-  font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #0a1628;
   color: #fff;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Headings use Playfair Display */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
 }
 
 html {
@@ -47,7 +52,7 @@ html {
   }
 
   .delay-75 {
-    animation-delay:  75ms;
+    animation-delay: 75ms;
   }
 
   .delay-150 {
@@ -55,7 +60,7 @@ html {
   }
 
   .delay-700 {
-    animation-delay:  700ms;
+    animation-delay: 700ms;
   }
 
   .animate-zoom-in {
@@ -70,19 +75,6 @@ html {
     to {
       transform: scale(1);
       opacity: 1;
-    }
-  }
-
-  .animate-typewriter {
-    animation: typewriter 2s steps(100, end) forwards;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 0;
-  }
-
-  @keyframes typewriter {
-    to {
-      width: 100%;
     }
   }
 
